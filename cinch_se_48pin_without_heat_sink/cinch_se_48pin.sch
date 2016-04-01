@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:cinch
+LIBS:cinch_se_48pin-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -45,13 +46,13 @@ Comment4 ""
 $EndDescr
 $Comp
 L Conn48pin P1
-U 1 1 56FAE790
-P 925 2300
-F 0 "P1" H 750 3950 60  0000 L CNN
-F 1 "Conn48pin" H 750 3775 60  0000 L CNN
-F 2 "cinch:Conn48pin" H 1075 1300 60  0001 C CNN
-F 3 "http://www.cinch.com/pdfs/1219440691-5810148005s_rev_D.pdf" H 1075 1300 60  0001 C CNN
-	1    925  2300
+U 1 1 56FEA9A7
+P 1000 2250
+F 0 "P1" H 875 3875 60  0000 L CNN
+F 1 "Conn48pin" H 825 3750 60  0000 L CNN
+F 2 "" H 1150 2550 60  0000 C CNN
+F 3 "" H 1150 2550 60  0000 C CNN
+	1    1000 2250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
